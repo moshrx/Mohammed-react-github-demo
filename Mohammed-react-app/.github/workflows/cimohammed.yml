@@ -18,6 +18,10 @@ jobs:
         with:
           node-version: '14'
 
+      # Add this step to ensure you're in the correct directory
+      - name: Change directory
+        run: cd Mohammed-react-github-demo
+
       - name: Install dependencies
         run: npm install
 

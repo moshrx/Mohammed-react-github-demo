@@ -20,12 +20,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./Mohammed-react-github-demo
+        working-directory: ./Mohammed-react-app
 
       - name: Run tests
         run: npm test
-        working-directory: ./Mohammed-react-github-demo
+        working-directory: ./Mohammed-react-app
 
       - name: Build project
         run: npm run build
-        working-directory: ./Mohammed-react-github-demo
+        working-directory: ./Mohammed-react-app
